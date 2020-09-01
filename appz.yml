@@ -17,6 +17,7 @@ deploy:
   replicas: 1
   port:
   - 9000
+  - 80
     
 monitor:
   notify: appzops@cloudbourne.co      
